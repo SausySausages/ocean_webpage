@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    height: 6000vh; 
+    background: linear-gradient(
+        to bottom,
+       /* Epipelagic */
+    #7FDBFF 0%,
+    #7FDBFF 10%,
+
+    /* Mesopelagic */
+    #3399FF 15%,
+    #0074D9 20%,
+
+    /* Bathypelagic */
+    #004080 25%,
+    #001f3f 35%,
+
+    /* Abyssopelagic */
+    #000033 40%,
+    #000022 50%,
+
+    /* Hadal  */
+    #000022 50%, 
+    #000000 100% 
+    );
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    position: relative;
+    
+}
+
+header {
+    padding: 40px 20px;
+}
+
+.intro {
+
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid white;
+    padding: 10px;
+}
+
+th {
+    background-color: rgba(255,255,255,0.2);
+}
+
+.zone {
+    position: relative; 
+    margin-top: 100vh;  
+    width: 80%;
+    left: 10%;
+    padding: 40px;
+}
+
+.zone {
+    position: relative;
+    width: 100%;
+    left: 0;
+    transform: translateY(-50%);
+    padding: 20px;
+}
+
+
+
+.zone img {
+    max-width: 300px;
+    height: auto;
+    border: 2px solid white;       
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;     
+    margin-bottom: 10px;
+}
+
+.extrastuff {
+    position: relative;
+    width: 100%;
+    left: 0;
+    transform: translateY(-50%);
+    padding: 20px;
+}
+
+.extrastuff img {
+    max-width: 300px;
+    height: auto;
+    border: 2px solid white;       
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;     
+    margin-bottom: 10px;
+}
+
+/*for links */ 
+
+a {
+    color: #012e3f;
+}
+
+link {
+    margin-top: 200vh;
+    padding: 30px;
+}
+
+
